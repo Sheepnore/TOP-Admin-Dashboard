@@ -1,0 +1,11 @@
+.account-section{
+  background-color: #fff;
+  box-shadow: 2px 2px 10px gray;
+  position: relative;
+  /* It also works > z-index: 1; */
+  /* Note: block-level elements have stacking context by default, so setting z-index on the div (block-level) alone would work. However, if the subject is a inline-level element, adding a position value of `relative`, `absolute` or `fixed` is required. */
+
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  border: 1px solid red;
+}
