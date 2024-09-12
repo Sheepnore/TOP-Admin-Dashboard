@@ -7,12 +7,8 @@
 
   display: grid;
   grid-template-rows: 1fr 2fr;
-  border: 1px solid red;
 }
 
-.account-section *{
-  outline: .5px solid red;
-}
 
 .account-section .user-icon{
   display: inline;
@@ -44,9 +40,9 @@
   background-color: #c6c6c67e;
   border: none;
   border-radius: 1rem;
-  min-width: 15rem;
+  min-width: 40rem;
   max-width: 25rem;
-  min-height: 1rem;
+  min-height: 1.5rem;
   margin-right: 2rem;
 }
 

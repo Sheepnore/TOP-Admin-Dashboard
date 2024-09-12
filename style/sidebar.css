@@ -23,7 +23,7 @@
 
 .sidebar .logo::before{
   content: '';
-  background: url('./img/dashboard.svg');
+  background: url('../img/dashboard.svg');
   width: 2.5rem;
   height: 2.5rem;
   display: inline-block;
@@ -40,7 +40,7 @@ li{
 
 .sidebar .upper-menu ul :nth-child(1)::before{
   content: '';
-  background: url('./img/home.svg');
+  background: url('../img/home.svg');
   width: 1.5rem;
   height: 1.5rem;
   display: inline-block;
@@ -49,7 +49,7 @@ li{
 
 .sidebar .upper-menu ul :nth-child(2)::before{
   content: '';
-  background: url('./img/profile.svg');
+  background: url('../img/profile.svg');
   width: 1.5rem;
   height: 1.5rem;
   display: inline-block;
@@ -59,7 +59,7 @@ li{
 
 .sidebar .upper-menu ul :nth-child(3)::before{
   content: '';
-  background: url('./img/home.svg');
+  background: url('../img/home.svg');
   width: 1.5rem;
   height: 1.5rem;
   display: inline-block;
@@ -69,7 +69,7 @@ li{
 
 .sidebar .upper-menu ul :nth-child(4)::before{
   content: '';
-  background: url('./img/history.svg');
+  background: url('../img/history.svg');
   width: 1.5rem;
   height: 1.5rem;
   display: inline-block;
@@ -79,7 +79,7 @@ li{
 
 .sidebar .upper-menu ul :nth-child(5)::before{
   content: '';
-  background: url('./img/tasks.svg');
+  background: url('../img/tasks.svg');
   width: 1.5rem;
   height: 1.5rem;
   display: inline-block;
@@ -89,7 +89,7 @@ li{
 
 .sidebar .upper-menu ul :nth-child(6)::before{
   content: '';
-  background: url('./img/communities.svg');
+  background: url('../img/communities.svg');
   width: 1.5rem;
   height: 1.5rem;
   display: inline-block;
@@ -98,7 +98,7 @@ li{
 
 .sidebar .lower-menu ul :nth-child(1)::before{
   content: '';
-  background: url('./img/settings.svg');
+  background: url('../img/settings.svg');
   width: 1.5rem;
   height: 1.5rem;
   display: inline-block;
@@ -108,7 +108,7 @@ li{
 
 .sidebar .lower-menu ul :nth-child(2)::before{
   content: '';
-  background: url('./img/help.svg');
+  background: url('../img/help.svg');
   width: 1.5rem;
   height: 1.5rem;
   display: inline-block;
@@ -118,7 +118,7 @@ li{
 
 .sidebar .lower-menu ul :nth-child(3)::before{
   content: '';
-  background: url('./img/privacy.svg');
+  background: url('../img/privacy.svg');
   width: 1.5rem;
   height: 1.5rem;
   display: inline-block;
