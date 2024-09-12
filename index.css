@@ -29,13 +29,29 @@ body{
   font-size: 1.5rem;
 } 
 
+.sidebar .logo{
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-top: .5rem;
+}
+
 .sidebar .logo::before{
-  content: ' ';
+  content: '';
   background: url('./img/dashboard.svg');
   width: 2.5rem;
   height: 2.5rem;
   display: inline-block;
+  margin-right: .5rem;
 
+}
+
+li{
+  margin-bottom: .5rem;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
 }
 
 .sidebar .upper-menu ul :nth-child(1)::before{
@@ -44,6 +60,7 @@ body{
   width: 1.5rem;
   height: 1.5rem;
   display: inline-block;
+  margin-right: 1rem;
 }
 
 .sidebar .upper-menu ul :nth-child(2)::before{
@@ -52,6 +69,8 @@ body{
   width: 1.5rem;
   height: 1.5rem;
   display: inline-block;
+  margin-right: 1rem;
+
 }
 
 .sidebar .upper-menu ul :nth-child(3)::before{
@@ -60,6 +79,8 @@ body{
   width: 1.5rem;
   height: 1.5rem;
   display: inline-block;
+  margin-right: 1rem;
+
 }
 
 .sidebar .upper-menu ul :nth-child(4)::before{
@@ -68,6 +89,8 @@ body{
   width: 1.5rem;
   height: 1.5rem;
   display: inline-block;
+  margin-right: 1rem;
+
 }
 
 .sidebar .upper-menu ul :nth-child(5)::before{
@@ -76,6 +99,8 @@ body{
   width: 1.5rem;
   height: 1.5rem;
   display: inline-block;
+  margin-right: 1rem;
+
 }
 
 .sidebar .upper-menu ul :nth-child(6)::before{
@@ -84,6 +109,8 @@ body{
   width: 1.5rem;
   height: 1.5rem;
   display: inline-block;
+  margin-right: 1rem;
+
 }
 
 .sidebar .lower-menu ul :nth-child(1)::before{
@@ -92,6 +119,8 @@ body{
   width: 1.5rem;
   height: 1.5rem;
   display: inline-block;
+  margin-right: 1rem;
+
 }
 
 .sidebar .lower-menu ul :nth-child(2)::before{
@@ -100,6 +129,8 @@ body{
   width: 1.5rem;
   height: 1.5rem;
   display: inline-block;
+  margin-right: 1rem;
+
 }
 
 .sidebar .lower-menu ul :nth-child(3)::before{
@@ -108,5 +139,7 @@ body{
   width: 1.5rem;
   height: 1.5rem;
   display: inline-block;
+  margin-right: 1rem;
+
 }
 
