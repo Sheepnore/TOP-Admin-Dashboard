@@ -2,10 +2,111 @@
   background-color: #fff;
   box-shadow: 2px 2px 10px gray;
   position: relative;
-  /* It also works > z-index: 1; */
-  /* Note: block-level elements have stacking context by default, so setting z-index on the div (block-level) alone would work. However, if the subject is a inline-level element, adding a position value of `relative`, `absolute` or `fixed` is required. */
+  /* It also works: z-index: 1; */
+  /* Note: block-level elements have stacking context by default, so setting z-index on the div (block-level) alone would work. However, if the subject is a inline-level element (e.g. span), adding a position value of `relative`, `absolute` or `fixed` is required. */
 
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 2fr;
   border: 1px solid red;
+}
+
+.account-section *{
+  outline: .5px solid red;
+}
+
+.account-section .user-icon{
+  display: inline;
+}
+
+.account-section .search-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.account-section .search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+
+}
+
+.account-section .search-icon{
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.account-section .search-bar{
+  background-color: #c6c6c67e;
+  border: none;
+  border-radius: 1rem;
+  min-width: 15rem;
+  max-width: 25rem;
+  min-height: 1rem;
+  margin-right: 2rem;
+}
+
+.account-section .notification-icon{
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.account-section .user-info{
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.account-section .user-icon{
+  width: 2.5rem;
+  height: 2.5rem;
+  display: inline-block;
+  margin-right: 1rem;
+  border-radius: 20px;
+
+}
+
+.account-section .user-name{
+  font-weight: bold;
+}
+
+.account-section .user-main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.account-section .user-main-icon{
+  width: 3rem;
+  height: 3rem;
+  display: inline-block;
+  margin-right: 1rem;
+  border-radius: 20px;
+}
+
+.account-section .user{
+  margin-right: 1rem;
+  display: inline-block;
+}
+
+.account-section .user-right{
+  margin-right: 2rem;
+}
+
+.account-section button{
+  padding: .6rem .8rem;
+  margin-left: 1rem;
+  background-color: #2d87cd;
+  color: #fff;
+  border: none;
+  border-radius: 1rem;
+  width: clamp(80px, 4vw, 100px);
+  font-weight: bold;
 }
