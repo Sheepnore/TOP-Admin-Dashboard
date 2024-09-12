@@ -3,6 +3,8 @@
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 2fr 1fr;
+  gap: 1rem;
+
   padding-top: 1.5rem;
   padding-left: 1rem;
   padding-right: 2rem;
@@ -14,8 +16,42 @@
   outline: .5px solid red;
 }
 
-.content-section .projects-area{
+.content-section .project-area{
   grid-area: 1/1/3/2;
+}
+
+.content-section .project-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  place-items: center;
+  height: 100%;
+  gap:1rem
+}
+
+.content-section .project-container .projects{
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: .4rem;
+  box-shadow: 1px 1px 5px gray;
+  height: 150px;
+}
+
+.content-section .project-container .projects p{
+  font-size: 1rem;
+  font-weight: normal;
+  color: rgb(74, 74, 74);
+}
+
+.content-section .project-container .icon-container{
+  text-align: right;
+  margin-top: 1rem;
+}
+
+.content-section .project-container .icon{
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: .5rem;
 }
 
 .content-section .trending-area{
