@@ -32,10 +32,12 @@
 }
 
 li{
-  margin-bottom: .5rem;
-  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1.5rem;
   display: flex;
   align-items: center;
+  font-size: 1rem;
 }
 
 .sidebar .upper-menu ul :nth-child(1)::before{

@@ -19,6 +19,7 @@
   justify-content: space-between;
   align-items: center;
   margin-left: 2rem;
+  padding-top: 1rem;
 }
 
 .account-section .search{
@@ -103,6 +104,9 @@
   color: #fff;
   border: none;
   border-radius: 1rem;
+  box-shadow: 1px 1px 5px gray;
+  cursor: pointer;
   width: clamp(80px, 4vw, 100px);
   font-weight: bold;
 }
+
